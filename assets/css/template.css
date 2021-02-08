@@ -203,10 +203,7 @@ article .news_thumb {
 
 article .news_thumb img{
     width: 100%;
-    height: 340px;
-    
-    
-    
+    height: 340px; 
 }
 /*
 1115
@@ -313,6 +310,18 @@ footer .widget_title{
     color:white;
 }
 
+.menuMobile{
+    display: none;
+    width: 40px;
+    height: 40px;
+  
+}
+
+.mm_line {
+    height: 3px;
+    background-color: rgb(0, 63, 63);
+}
+
 @media (max-width:1800px){
     .quadrado {
         width: 141px;
@@ -417,11 +426,11 @@ footer .widget_title{
 */
 @media (max-width:904px){
     .quadrado {
-        width: 150px;
-        height: 150px;
+        width: 170px;
+        height: 170px;
         background-color: rgb(25, 0, 255);
-        margin-right: 5%;
-        margin-top: 20px;
+        margin-right: 15px;
+        padding: 20px;
     }
     article .news_thumb img{
         width: 100%;
@@ -434,14 +443,208 @@ footer .widget_title{
     }
     article {
         margin-bottom:30px ;
-        margin-right: 15px;
+        margin-right: 0px;
         
     }
     .widget_body{
         justify-content: space-between;
     }
     
+    nav ul {
+        flex-direction: column;
+        display: none;
+        position: absolute;
+        left: 0;
+        width: 100%;
+        background-color: white;
+    }
+    .menuMobile{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    .container{
+        width: 90%;
+    }
+    header .container{
+        height: auto;
+        width: 90%;
+    }
+    section .coluna{
+        flex-direction: column;
+    }
+    .rodape{
+        width: 90%;
+        height: auto;
+    }
     
+} 
+@media (max-width:772px){
+    .quadrado {
+        width: 150px;
+        height: 150px;
+        background-color: rgb(15, 109, 51);
+    }
+    
+    
+    .container{
+        width: 95%;
+    }
+    header .container{
+        width: 95%;
+    }
+   
+    .rodape{
+        width: 95%;
+    }
+    
+}
+@media (max-width:668px){
+    .quadrado {
+        width: 120px;
+        height: 120px;
+        background-color: rgb(109, 15, 15);
+    }
+    
+    
+    .container{
+        width: 95%;
+    }
+    header .container{
+        width: 95%;
+    }
+   
+    .rodape{
+        width: 95%;
+    }
+    .footer_menu {
+        flex-direction: column;
+    }
+    .fm_1, .fm_2, .fm_3 {
+        height: auto;
+    }
+    .fm_1{
+        border-bottom-left-radius: 0px;
+    }
+    .fm_3{
+        border-bottom-left-radius: 10px;
+    }
+
+    .banner_options {
+        height: auto;
+        flex-direction: column;
+        
+    }
+   
+    .banner1{
+ 
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+    }
+    
+    .banner3{
+
+        border-top-right-radius: 0px;
+    }
+} 
+
+@media (max-width:570px){
+    .quadrado {
+        width: 100px;
+        height: 100px;
+        background-color: rgb(45, 109, 15);
+    }
+    
+    
+    .container{
+        width: 97%;
+    }
+    header .container{
+        width: 97%;
+    }
+   
+    .rodape{
+        width: 97%;
+    }
+
+} 
+@media (max-width:482px){
+    .quadrado {
+        width: 80px;
+        height: 80px;
+        background-color: rgb(214, 154, 214);
+    }
+    
+    
+    .container{
+        width: 97%;
+    }
+    header .container{
+        width: 97%;
+    }
+   
+    .rodape{
+        width: 97%;
+    }
+
+}
+@media (max-width:441px){
+    .quadrado {
+        width: 80px;
+        height: 80px;
+        background-color: rgb(214, 154, 214);
+    }
+    
+    
+    .container{
+        width: 97%;
+    }
+    header .container{
+        width: 97%;
+    }
+   
+    .rodape{
+        width: 97%;
+    }
+    .celular {
+        justify-content: left;
+    }
+    .banner_headline h1{
+        color:white;
+        font-size: 40px;
+        text-shadow: 1px 1px 0px black;
+        margin: 0;
+        padding: 0;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .banner_headline h2{
+        color: white;
+        font-size: 18px;
+        text-shadow: 1px 1px 0px black;
+        margin: 0;
+        padding: 0;
+        padding-top: 10px;
+        
+    }
+} 
+
+@media (max-width:364px){
+    .quadrado {
+        width: 80px;
+        height: 80px;
+        background-color: rgb(214, 213, 154);
+    }
+    
+    article .news_thumb img{
+        width: 100%;
+    }
+    article {
+        min-width:auto;
+        
+    }
+    
+} 
 /*
 justify-content: space-between;
 (rgb(101, 178, 222),rgb(1, 69, 88))
